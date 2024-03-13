@@ -1,9 +1,16 @@
 .App {
-  background-color: #050505;
+  background-color: #E5B899;
   margin: 5px;
   /* text-align: center; */
 }
+.cover-poster-item{
+  /* filter: blur(1px); */
+  
+}
 
+#cover-poster-image{
+  height: 470px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -43,7 +50,7 @@
   background-color: #FFFFFF;
 }
 
-.title-text{
+#title-text{
   color: #FF6D09;
   text-align: center;
   font-size: 40px;
