@@ -1,7 +1,7 @@
 .App {
   background-color: #050505;
   margin: 5px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -52,4 +52,7 @@
 }
 .item-feature-image{
   height: 28rem;
+}
+.item-button-section{
+  margin-left: 18px;
 }
