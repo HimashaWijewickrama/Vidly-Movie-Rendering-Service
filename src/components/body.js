@@ -353,7 +353,7 @@ function Body() {
                 </div>
                 <div className="item-detail">
                   <span className="item-detail-key">Directed By: </span>
-                  <span className="item-detail-value">James Cameron</span>
+                  <span className="item-detail-value">Vincent Kesteloot</span>
                 </div>
                 <div className="item-detail">
                   <span className="item-detail-key">Language: </span>
@@ -361,11 +361,7 @@ function Body() {
                 </div>
                 <div className="item-detail">
                   <span className="item-detail-key">Distributed By: </span>
-                  <span className="item-detail-value">nWave Pictures</span>
-                </div>
-                <div className="item-detail">
-                  <span className="item-detail-key">Running Time: </span>
-                  <span className="item-detail-value">100 minutes</span>
+                  <span className="item-detail-value">Summit Entertainment</span>
                 </div>
               </Card.Text>
               <Stack
