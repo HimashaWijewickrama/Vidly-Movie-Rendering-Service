@@ -1,4 +1,6 @@
 .App {
+  background-color: #050505;
+  margin: 5px;
   text-align: center;
 }
 
@@ -35,4 +37,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.title-section{
+  background-color: #FFFFFF;
+}
+
+.title-text{
+  color: #FF6D09;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.item-feature-image{
+  height: 28rem;
 }
