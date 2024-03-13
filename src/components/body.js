@@ -210,10 +210,6 @@ function Body() {
                   <span className="item-detail-key">Distributed By: </span>
                   <span className="item-detail-value">New Line Cinema</span>
                 </div>
-                {/* <div className="item-detail">
-                  <span className="item-detail-key">Running Time: </span>
-                  <span className="item-detail-value">160 minutes</span>
-                </div> */}
               </Card.Text>
               <Stack
                 direction="horizontal"

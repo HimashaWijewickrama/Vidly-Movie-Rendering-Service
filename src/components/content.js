@@ -15,7 +15,12 @@ function Content() {
       <br />
       <Body/>
       <Row>
-        <Col>End of the page - Footer</Col>
+        <Col>
+        <Container style={{color: 'white'}}>
+        Top News
+
+        </Container>
+        </Col>
       </Row>
     </Container>
   );
