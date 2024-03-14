@@ -2,8 +2,8 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Body from "./body";
+import Footer from "./footer";
 import Header from "./header";
-import TopNews from "./topNews";
 
 function Content() {
   return (
@@ -14,8 +14,9 @@ function Content() {
         </Col>
       </Row>
       <br />
-      <Body /><br/>
-      <TopNews />
+      <Body />
+      <br />
+      <Footer />
     </Container>
   );
 }

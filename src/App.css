@@ -1,16 +1,8 @@
 .App {
-  background-color: #E5B899;
+  background-color: #e5b899;
   margin: 5px;
-  /* text-align: center; */
-}
-.cover-poster-item{
-  /* filter: blur(1px); */
-  
 }
 
-#cover-poster-image{
-  height: 470px;
-}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -46,32 +38,43 @@
   }
 }
 
-.title-section{
-  background-color: #FFFFFF;
+.title-section {
+  background-color: #fff4d4;
 }
 
-#title-text{
-  color: #FF6D09;
+#title-text {
+  color: #ff6d09;
   text-align: center;
   font-size: 40px;
   font-weight: 600;
   text-transform: uppercase;
 }
-.item-feature-image{
+#title-sub-text {
+  color: #000000;
+  font-family: 600;
+  font-size: 18px;
+}
+.title-logo {
+  margin: 0px;
+  height: 150px;
+  width: 200px;
+  border: 1px solid #ffffff;
+}
+.item-feature-image {
   height: 28rem;
 }
-.item-button-section{
+.item-button-section {
   margin-left: 18px;
 }
-.sub-title-section{
-  background-color: #FFFFFF;
-  background-image: url('https://images.unsplash.com/photo-1605278511911-ba9e81239bad?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-
+.footer-section {
+  background-color: #fff4d4;
+  margin-bottom: 10px;
 }
-#sub-title-text{
-  color: #FF6D09;
+#footer-text {
+  color: #000000;
   text-align: center;
-  font-size: 34px;
-  text-transform: uppercase;
+  font-size: 12px;
+  text-transform: capitalize;
   font-weight: 600;
+  margin-left: 500px;
 }
