@@ -63,3 +63,15 @@
 .item-button-section{
   margin-left: 18px;
 }
+.sub-title-section{
+  background-color: #FFFFFF;
+  background-image: url('https://images.unsplash.com/photo-1605278511911-ba9e81239bad?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+
+}
+#sub-title-text{
+  color: #FF6D09;
+  text-align: center;
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: 600;
+}

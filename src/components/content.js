@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Body from "./body";
 import Header from "./header";
+import TopNews from "./topNews";
 
 function Content() {
   return (
@@ -13,15 +14,8 @@ function Content() {
         </Col>
       </Row>
       <br />
-      <Body/>
-      <Row>
-        <Col>
-        <Container style={{color: 'white'}}>
-        Top News
-
-        </Container>
-        </Col>
-      </Row>
+      <Body /><br/>
+      <TopNews />
     </Container>
   );
 }
