@@ -1,8 +1,8 @@
-import { Button, Stack } from "react-bootstrap";
+import { Stack } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import { IoAddOutline } from "react-icons/io5";
 import logo from "../assets/logo.png";
+import AddNew from "./addModal";
 
 function Header() {
   return (
@@ -17,9 +17,7 @@ function Header() {
             Unlock the World of Movies with Vidly!
           </div>
           <div className="p-2 ms-auto">
-            <Button variant="outline-dark">
-              <IoAddOutline /> Add New
-            </Button>
+            <AddNew />
           </div>
         </Stack>
       </Row>
