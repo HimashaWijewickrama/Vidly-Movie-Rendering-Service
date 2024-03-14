@@ -1,18 +1,11 @@
+import { Stack } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
-import { Stack } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Button from "react-bootstrap/Button";
+import { MdDelete } from "react-icons/md";
 import image1 from "../assets/img1.jpg";
-import image2 from "../assets/img2.jpg";
-import image3 from "../assets/img3.jpg";
-import image4 from "../assets/img4.jpg";
-import image5 from "../assets/img5.jpg";
-import image6 from "../assets/img6.jpg";
-import image7 from "../assets/img7.jpg";
-import image8 from "../assets/img8.jpg";
-import image9 from "../assets/img9.jpg";
 import image10 from "../assets/img10.jpg";
 import image11 from "../assets/img11.jpg";
 import image12 from "../assets/img12.jpg";
@@ -23,6 +16,7 @@ import image16 from "../assets/img16.jpg";
 import image17 from "../assets/img17.jpg";
 import image18 from "../assets/img18.jpg";
 import image19 from "../assets/img19.jpg";
+import image2 from "../assets/img2.jpg";
 import image20 from "../assets/img20.jpg";
 import image21 from "../assets/img21.jpg";
 import image22 from "../assets/img22.jpg";
@@ -33,6 +27,7 @@ import image26 from "../assets/img26.jpg";
 import image27 from "../assets/img27.jpg";
 import image28 from "../assets/img28.jpg";
 import image29 from "../assets/img29.jpg";
+import image3 from "../assets/img3.jpg";
 import image30 from "../assets/img30.jpg";
 import image31 from "../assets/img31.jpg";
 import image32 from "../assets/img32.jpg";
@@ -40,8 +35,13 @@ import image33 from "../assets/img33.jpg";
 import image34 from "../assets/img34.jpg";
 import image35 from "../assets/img35.jpg";
 import image36 from "../assets/img36.jpg";
-import { MdEdit } from "react-icons/md";
-import { MdDelete } from "react-icons/md";
+import image4 from "../assets/img4.jpg";
+import image5 from "../assets/img5.jpg";
+import image6 from "../assets/img6.jpg";
+import image7 from "../assets/img7.jpg";
+import image8 from "../assets/img8.jpg";
+import image9 from "../assets/img9.jpg";
+import EditModal from "./editModal";
 
 function Body() {
   return (
@@ -81,9 +81,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -126,9 +124,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -175,9 +171,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -216,9 +210,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -269,9 +261,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -320,9 +310,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -357,7 +345,9 @@ function Body() {
                 </div>
                 <div className="item-detail">
                   <span className="item-detail-key">Distributed By: </span>
-                  <span className="item-detail-value">Summit Entertainment</span>
+                  <span className="item-detail-value">
+                    Summit Entertainment
+                  </span>
                 </div>
               </Card.Text>
               <Stack
@@ -365,9 +355,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -416,9 +404,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -470,9 +456,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -519,9 +503,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -570,9 +552,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -619,9 +599,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -671,9 +649,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -722,9 +698,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -775,9 +749,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -826,9 +798,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -878,9 +848,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -925,9 +893,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -976,9 +942,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -1027,9 +991,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -1080,9 +1042,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -1130,9 +1090,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -1182,9 +1140,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -1232,9 +1188,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -1282,9 +1236,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -1335,9 +1287,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -1386,9 +1336,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -1435,9 +1383,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -1485,9 +1431,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -1536,9 +1480,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -1590,9 +1532,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -1642,9 +1582,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -1696,9 +1634,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -1745,9 +1681,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -1794,9 +1728,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
@@ -1823,7 +1755,9 @@ function Body() {
                 </div>
                 <div className="item-detail">
                   <span className="item-detail-key">Directed By: </span>
-                  <span className="item-detail-value">Nathan Greno/Byron Howard</span>
+                  <span className="item-detail-value">
+                    Nathan Greno/Byron Howard
+                  </span>
                 </div>
                 <div className="item-detail">
                   <span className="item-detail-key">Language: </span>
@@ -1843,9 +1777,7 @@ function Body() {
                 gap={3}
                 className="item-button-section"
               >
-                <Button variant="warning">
-                  <MdEdit /> Update
-                </Button>
+                <EditModal />
                 <div className="vr" />
                 <Button variant="outline-danger">
                   <MdDelete /> Delete
