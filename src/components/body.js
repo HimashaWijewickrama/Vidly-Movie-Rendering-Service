@@ -48,7 +48,7 @@ function Body() {
     <Container>
       <Row>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className="item-card">
             <Card.Img
               variant="top"
               src={image1}
@@ -91,7 +91,7 @@ function Body() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image2}
@@ -134,7 +134,7 @@ function Body() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image3}
@@ -181,7 +181,7 @@ function Body() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image4}
@@ -224,7 +224,7 @@ function Body() {
       <br />
       <Row>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image5}
@@ -271,7 +271,7 @@ function Body() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image6}
@@ -320,7 +320,7 @@ function Body() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image7}
@@ -365,7 +365,7 @@ function Body() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image8}
@@ -417,7 +417,7 @@ function Body() {
       <br />
       <Row>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image9}
@@ -466,7 +466,7 @@ function Body() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image10}
@@ -513,7 +513,7 @@ function Body() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image11}
@@ -562,7 +562,7 @@ function Body() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image12}
@@ -612,7 +612,7 @@ function Body() {
       <br />
       <Row>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image13}
@@ -659,7 +659,7 @@ function Body() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image14}
@@ -708,7 +708,7 @@ function Body() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image15}
@@ -759,7 +759,7 @@ function Body() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image16}
@@ -811,7 +811,7 @@ function Body() {
       <br />
       <Row>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image17}
@@ -858,7 +858,7 @@ function Body() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image18}
@@ -903,7 +903,7 @@ function Body() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image19}
@@ -952,7 +952,7 @@ function Body() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image20}
@@ -1005,7 +1005,7 @@ function Body() {
       <Row>
         <Col>
           {" "}
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image21}
@@ -1053,7 +1053,7 @@ function Body() {
         </Col>
         <Col>
           {" "}
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image22}
@@ -1101,7 +1101,7 @@ function Body() {
         </Col>
         <Col>
           {" "}
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image23}
@@ -1151,7 +1151,7 @@ function Body() {
         </Col>
         <Col>
           {" "}
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image24}
@@ -1201,7 +1201,7 @@ function Body() {
       <br />
       <Row>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image25}
@@ -1246,7 +1246,7 @@ function Body() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image26}
@@ -1297,7 +1297,7 @@ function Body() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image27}
@@ -1346,7 +1346,7 @@ function Body() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image28}
@@ -1396,7 +1396,7 @@ function Body() {
       <br />
       <Row>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image29}
@@ -1441,7 +1441,7 @@ function Body() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image30}
@@ -1490,7 +1490,7 @@ function Body() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image31}
@@ -1542,7 +1542,7 @@ function Body() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image32}
@@ -1595,7 +1595,7 @@ function Body() {
       <br />
       <Row>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image33}
@@ -1644,7 +1644,7 @@ function Body() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image34}
@@ -1691,7 +1691,7 @@ function Body() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image35}
@@ -1738,7 +1738,7 @@ function Body() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className = "item-card">
             <Card.Img
               variant="top"
               src={image36}

@@ -60,6 +60,9 @@
   width: 200px;
   border: 1px solid #ffffff;
 }
+.item-card {
+  width: 18rem;
+}
 .item-feature-image {
   height: 28rem;
 }
